@@ -22,4 +22,4 @@ Sistema de organização de atividades diárias
 - [ ] **US 13**: Eu, como usuário do sistema, desejo gerar um PDF com a listagem de todas as atividades alocadas para um intervalo de dias. 
 
 ## Como contribuir
-Acesse o arquivo [CONTRIBUTING.md](./CONRTIBUTING.md) para mais informações.
+Acesse o arquivo [CONTRIBUTING.md](./CONTRIBUTING.md) para mais informações.
