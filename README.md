@@ -35,6 +35,14 @@ Vamos implementar a entidade usuário?!
 2. ter um **sobrenome**
 3. ter uma **data de nascimento** no formato **DD/MM/AAAA**
 
+USUÁRIO||
+--------|-
+nome| String|
+sobrenome| String|
+data_nascimento| Date|
+
+> Para simplificar, você poderá ter liberdade em como representar esta data de nascimento, fique livre para utilizar os tipos de Java para representação de tempo e data, para criar sua própria entidade ou representar isso em diferentes campos.
+
 ## Poderemos realizar...
 1. O **cadastro** de um usuário passando as informações necessárias
 2. **Listar todos** os usuários cadastrados até o momento no sistema
