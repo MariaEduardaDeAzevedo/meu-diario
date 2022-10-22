@@ -23,3 +23,20 @@ Sistema de organização de atividades diárias
 
 ## Como contribuir
 Acesse o arquivo [CONTRIBUTING.md](./CONTRIBUTING.md) para mais informações.
+
+
+---
+# Especificações para atividade do Workshop
+
+Vamos implementar a entidade usuário?!
+
+## Nosso usuário deverá...
+1. ter um **nome**
+2. ter um **sobrenome**
+3. ter uma **data de nascimento** no formato **DD/MM/AAAA**
+
+## Poderemos realizar...
+1. O **cadastro** de um usuário passando as informações necessárias
+2. **Listar todos** os usuários cadastrados até o momento no sistema
+
+> Dica: essas operações parecem com algo que já vimos antes! Tente implementar a estrutura MVC com base no modelo HelloWorld disponibilizado.
