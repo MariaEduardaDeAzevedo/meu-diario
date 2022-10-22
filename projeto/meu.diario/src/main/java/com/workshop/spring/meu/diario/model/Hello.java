@@ -5,11 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.sql.Date;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/*
+    Entidade mais básica do meu sistema. Vai especificar como são criadas as tabelas no BD
+    que representam meus dados dentro da aplicação.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +21,9 @@ public class Hello {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "timestamp")
     private String timestamp;
 
     public Hello(String name) {
